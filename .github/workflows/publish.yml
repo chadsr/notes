@@ -32,11 +32,16 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: ${{ github.head_ref }}
+      - uses: actions/setup-node@v4
       - name: Export graph as RDF
         uses: logseq/rdf-export@main
         with:
           rdfFile: notes.nq
+      - name: Convert N-Quads to JSON-LD
+        run: |
+          npm ci
+          npm run convert
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          file_pattern: 'notes.nq'
+          file_pattern: 'notes.nq notes.jsonld'
           commit_message: "Update linked data"

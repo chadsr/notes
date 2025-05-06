@@ -2,3 +2,4 @@ logseq/bak
 logseq/.recycle
 .lsp
 .clj-kondo
+node_modules

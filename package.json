@@ -1,0 +1,25 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Notes",
+  "scripts": {
+    "convert": "ts-node ./scripts/convert.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadsr/notes.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chadsr/notes/issues"
+  },
+  "homepage": "https://github.com/chadsr/notes#readme",
+  "devDependencies": {
+    "@types/jsonld": "^1.5.15",
+    "@types/node": "^22.15.12",
+    "jsonld": "^8.3.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
