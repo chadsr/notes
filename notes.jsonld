@@ -78,6 +78,22 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025",
+        "@type": [
+            "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Towards publishing my notes and research as self-describing, public information"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "May 6th, 2025"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Note",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
