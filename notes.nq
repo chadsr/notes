@@ -1,0 +1,82 @@
+<https://notes.ross.ch/#/page/Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Boolean> <https://schema.org/name> "Boolean" .
+<https://notes.ross.ch/#/page/Boolean> <https://schema.org/url> <https://schema.org/Boolean> .
+<https://notes.ross.ch/#/page/Boolean> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/Class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Class> <https://notes.ross.ch/#/page/sameas> <https://www.w3.org/2000/01/rdf-schema#Class> .
+<https://notes.ross.ch/#/page/Class> <https://schema.org/description> "Defines user defined classes/types in this graph" .
+<https://notes.ross.ch/#/page/Class> <https://schema.org/name> "Class" .
+<https://notes.ross.ch/#/page/Class> <https://schema.org/url> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Class> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/DataType> <https://schema.org/description> "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible" .
+<https://notes.ross.ch/#/page/DataType> <https://schema.org/name> "DataType" .
+<https://notes.ross.ch/#/page/DataType> <https://schema.org/url> <https://schema.org/DataType> .
+<https://notes.ross.ch/#/page/DataType> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Note> <https://schema.org/description> "A note" .
+<https://notes.ross.ch/#/page/Note> <https://schema.org/name> "Note" .
+<https://notes.ross.ch/#/page/Note> <https://schema.org/url> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Note> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Property> <https://notes.ross.ch/#/page/sameas> <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+<https://notes.ross.ch/#/page/Property> <https://schema.org/description> "Defines user defined properties in this graph" .
+<https://notes.ross.ch/#/page/Property> <https://schema.org/name> "Property" .
+<https://notes.ross.ch/#/page/Property> <https://schema.org/url> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/Property> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Thing> .
+<https://notes.ross.ch/#/page/StringWithRefs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/StringWithRefs> <https://schema.org/description> "String that can have page references" .
+<https://notes.ross.ch/#/page/StringWithRefs> <https://schema.org/name> "StringWithRefs" .
+<https://notes.ross.ch/#/page/StringWithRefs> <https://schema.org/url> <https://notes.ross.ch/#/page/StringWithRefs> .
+<https://notes.ross.ch/#/page/StringWithRefs> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/Thing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Thing> <https://schema.org/description> "The simplest concept which all classes inherit from." .
+<https://notes.ross.ch/#/page/Thing> <https://schema.org/name> "Thing" .
+<https://notes.ross.ch/#/page/Thing> <https://schema.org/url> <https://schema.org/Thing> .
+<https://notes.ross.ch/#/page/Uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Uri> <https://schema.org/name> "Uri" .
+<https://notes.ross.ch/#/page/Uri> <https://schema.org/url> <https://schema.org/URL> .
+<https://notes.ross.ch/#/page/Uri> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/description> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/StringWithRefs> .
+<https://notes.ross.ch/#/page/description> <https://schema.org/name> "description" .
+<https://notes.ross.ch/#/page/description> <https://schema.org/url> <https://schema.org/description> .
+<https://notes.ross.ch/#/page/domainincludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/domainincludes> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/domainincludes> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/domainincludes> <https://notes.ross.ch/#/page/sameas> <https://schema.org/domainIncludes> .
+<https://notes.ross.ch/#/page/domainincludes> <https://schema.org/description> "A more useful version of rdfs:domain as it can be one of multiple values" .
+<https://notes.ross.ch/#/page/domainincludes> <https://schema.org/name> "domainincludes" .
+<https://notes.ross.ch/#/page/domainincludes> <https://schema.org/url> <https://notes.ross.ch/#/page/domainIncludes> .
+<https://notes.ross.ch/#/page/parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/parent> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/parent> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/parent> <https://schema.org/description> "Used to connect a class with its parent class" .
+<https://notes.ross.ch/#/page/parent> <https://schema.org/name> "parent" .
+<https://notes.ross.ch/#/page/parent> <https://schema.org/url> <https://www.w3.org/2000/01/rdf-schema#subClassOf> .
+<https://notes.ross.ch/#/page/rangeincludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/rangeincludes> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/rangeincludes> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/rangeincludes> <https://notes.ross.ch/#/page/sameas> <https://schema.org/rangeIncludes> .
+<https://notes.ross.ch/#/page/rangeincludes> <https://schema.org/description> "List of values a property can have" .
+<https://notes.ross.ch/#/page/rangeincludes> <https://schema.org/name> "rangeincludes" .
+<https://notes.ross.ch/#/page/rangeincludes> <https://schema.org/url> <https://notes.ross.ch/#/page/rangeIncludes> .
+<https://notes.ross.ch/#/page/sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/sameAs> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Uri> .
+<https://notes.ross.ch/#/page/sameAs> <https://schema.org/description> "Indicates that two URIs are equivalent" .
+<https://notes.ross.ch/#/page/sameAs> <https://schema.org/name> "sameAs" .
+<https://notes.ross.ch/#/page/sameAs> <https://schema.org/url> <https://www.w3.org/2002/07/owl#sameAs> .
+<https://notes.ross.ch/#/page/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/type> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/type> <https://schema.org/name> "type" .
+<https://notes.ross.ch/#/page/type> <https://schema.org/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+<https://notes.ross.ch/#/page/unique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/unique> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/unique> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Boolean> .
+<https://notes.ross.ch/#/page/unique> <https://schema.org/name> "unique" .
+<https://notes.ross.ch/#/page/unique> <https://schema.org/url> <https://notes.ross.ch/#/page/unique> .
+<https://notes.ross.ch/#/page/url> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/url> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Uri> .
+<https://notes.ross.ch/#/page/url> <https://notes.ross.ch/#/page/unique> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/url> <https://schema.org/name> "url" .
+<https://notes.ross.ch/#/page/url> <https://schema.org/url> <https://schema.org/url> .
