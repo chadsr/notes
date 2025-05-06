@@ -5,7 +5,7 @@
  ;; maybe your personal preferred format is Org but you'd
  ;; need to use Markdown for some projects.
  ;; :preferred-format ""
-
+ 
  ;; Preferred workflow style.
  ;; Value is either ":now" for NOW/LATER style,
  ;; or ":todo" for TODO/DOING style.
@@ -13,7 +13,7 @@
 
  ;; The app will ignore those directories or files.
  ;; E.g. :hidden ["/archived" "/test.md" "../assets/archived"]
- :hidden []
+ :hidden ["README.md"]
 
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
@@ -23,14 +23,14 @@
  ;; Set a custom date format for journal page title
  ;; Example:
  ;; :journal/page-title-format "EEE, do MMM yyyy"
-
+ 
  ;; Whether to enable hover on tooltip preview feature
  ;; Default is true, you can also toggle this via setting page
  :ui/enable-tooltip? true
 
  ;; Show brackets around page references
  ;; :ui/show-brackets? true
-
+ 
  ;; Enable showing the body of blocks when referencing them.
  :ui/show-full-blocks? false
 
@@ -46,23 +46,23 @@
 
  ;; Enable journals
  ;; :feature/enable-journals? true
-
+ 
  ;; Enable flashcards
  ;; :feature/enable-flashcards? true
-
+ 
  ;; Enable Whiteboards
  ;; :feature/enable-whiteboards? true
-
+ 
  ;; Disable the built-in Scheduled tasks and deadlines query
  ;; :feature/disable-scheduled-and-deadline-query? true
-
+ 
  ;; Specify the number of days in the future to display in the
  ;; scheduled tasks and deadlines query, with a default value of 0 which
  ;; only displays tasks for today.
  ;; Example usage:
  ;; Display all scheduled tasks and deadlines in the next 7 days
  ;; :scheduled/future-days 7
-
+ 
  ;; Specify the date on which the week starts.
  ;; Goes from 0 to 6 (Monday to Sunday), default to 6
  :start-of-week 6
@@ -73,15 +73,15 @@
  ;; https://github.com/logseq/awesome-logseq#css-themes
  ;; Example:
  ;; :custom-css-url "@import url('https://cdn.jsdelivr.net/gh/dracula/logseq@master/custom.css');"
-
+ 
  ;; Specify a custom js import
  ;; This option take precedence over your local `logseq/custom.js` file
  ;; :custom-js-url ""
-
+ 
  ;; Set a custom Arweave gateway
  ;; Default gateway: https://arweave.net
  ;; :arweave/gateway ""
-
+ 
  ;; Set Bullet indentation when exporting
  ;; default option: tab
  ;; Possible options are for `:sidebar` are
@@ -89,7 +89,7 @@
  ;; 2. `:four-spaces` as four spaces
  ;; 3. `:two-spaces` as two spaces
  ;; :export/bullet-indentation :tab
-
+ 
  ;; When :all-pages-public? true, export repo would export all pages within that repo.
  ;; Regardless of whether you've set any page to public or not.
  ;; Example:
@@ -110,21 +110,20 @@
  ;; :default-home {:page "Jun 3rd, 2021"}
  ;; 3. Setup page "home" as home page with multiple pages in sidebar
  ;; :default-home {:page "home" :sidebar ["page a" "page b"]}
- :default-home {:page "Contents", :sidebar "Contents"}
 
  ;; Tell logseq to use a specific folder in the repo as a default location for notes
  ;; if not specified, notes are stored in `pages` directory
  ;; :pages-directory "your-directory"
-
+ 
  ;; Tell logseq to use a specific folder in the repo as a default location for journals
  ;; if not specified, journals are stored in `journals` directory
  ;; :journals-directory "your-directory"
-
+ 
  ;; Set this to true will convert
  ;; `[[Grant Ideas]]` to `[[file:./grant_ideas.org][Grant Ideas]]` for org-mode
  ;; For more, see https://github.com/logseq/logseq/issues/672
  ;; :org-mode/insert-file-link? true
-
+ 
  ;; Setup custom shortcuts under `:shortcuts` key
  ;; Syntax:
  ;; 1. `+` means keys pressing simultaneously. eg: `ctrl+shift+a`
@@ -230,7 +229,8 @@
  ;; input "{{poem red,blue}}"
  ;; becomes
  ;; Rose is red, violet's blue. Life's ordered: Org assists you.
- :macros {}
+ :macros
+ {"notes-base-url" "https://notes.ross.ch/#/page/$1"}
 
  ;; The default level to be opened for the linked references.
  ;; For example, if we have some example blocks like this:
@@ -250,56 +250,56 @@
 
  ;; any number between 0 and 1 (the greater it is the faster the changes of the next-interval of card reviews) (default 0.5)
  ;; :srs/learning-fraction 0.5
-
+ 
  ;; the initial interval after the first successful review of a card (default 4)
  ;; :srs/initial-interval 4
-
+ 
  ;; hide specific properties for blocks
  ;; E.g. :block-hidden-properties #{:created-at :updated-at}
  ;; :block-hidden-properties #{}
-
+ 
  ;; Enable all your properties to have corresponding pages
  :property-pages/enabled? true
 
  ;; Properties to exclude from having property pages
  ;; E.g.:property-pages/excludelist #{:duration :author}
  ;; :property-pages/excludelist
-
+ 
  ;; By default, property value separated by commas will not be treated as
  ;; page references. You can add properties to enable it.
  ;; E.g. :property/separated-by-commas #{:alias :tags}
  ;; :property/separated-by-commas #{}
-
+ 
  ;; Properties that are ignored when parsing property values for references
  ;; :ignored-page-references-keywords #{:author :startup}
-
+ 
  ;; logbook setup
  ;; :logbook/settings
  ;; {:with-second-support? false ;limit logbook to minutes, seconds will be eliminated
  ;;  :enabled-in-all-blocks true ;display logbook in all blocks after timetracking
  ;;  :enabled-in-timestamped-blocks false ;don't display logbook at all
  ;; }
-
+ 
  ;; Mobile photo uploading setup
  ;; :mobile/photo
  ;; {:allow-editing? true
  ;;  :quality          80}
-
+ 
  ;; Mobile features options
  ;; Gestures
  ;; :mobile
  ;; {:gestures/disabled-in-block-with-tags ["kanban"]}
-
+ 
  ;; Extra CodeMirror options
  ;; See https://codemirror.net/5/doc/manual.html#config for possible options
  ;; :editor/extra-codemirror-options {:keyMap "emacs" :lineWrapping true}
-
+ 
  ;; Enable logical outdenting
  ;; :editor/logical-outdenting? true
-
+ 
  ;; When both text and a file are in the clipboard, paste the file
  ;; :editor/preferred-pasting-file? true
-
+ 
  ;; Quick capture templates for receiving contents from other apps.
  ;; Each template contains three elements {time}, {text} and {url}, which can be auto-expanded
  ;; by received contents from other apps. Note: the {} cannot be omitted.
@@ -312,14 +312,14 @@
  ;; :quick-capture-templates
  ;; {:text "[[quick capture]] **{time}**: {text} from {url}"
  ;;  :media "[[quick capture]] **{time}**: {url}"}
-
+ 
  ;; Quick capture options
  ;; :quick-capture-options {:insert-today? false :redirect-page? false :default-page "my page"}
-
+ 
  ;; File sync options
  ;; Ignore these files when syncing, regexp is supported.
  ;; :file-sync/ignore-files []
-
+ 
  ;; dwim (do what I mean) for Enter key when editing.
  ;; Context-awareness of Enter key makes editing more easily
  ; :dwim/settings {
@@ -330,7 +330,7 @@
  ;   :properties?      true
  ;   :list?            true
  ; }
-
+ 
  ;; Decide the way to escape the special characters in the page title.
  ;; Warning:
  ;;   This is a dangerous operation. If you want to change the setting,
@@ -346,5 +346,4 @@
 
  ;; specify the format of the filename for journal files
  ;; :journal/file-name-format "yyyy_MM_dd"
-
  }
