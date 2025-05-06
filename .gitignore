@@ -1,1 +1,4 @@
-/logseq/bak
+logseq/bak
+logseq/.recycle
+.lsp
+.clj-kondo

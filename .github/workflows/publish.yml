@@ -1,8 +1,10 @@
 name: Publish
 on:
-  push:
+  workflow_run:
+    workflows: ['Test']
+    types: [completed]
     branches:
-      - main
+      - 'main'
 permissions:
   contents: write
 jobs:
@@ -31,9 +33,10 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Export graph as RDF
-        uses: logseq/rdf-export@v0.2.0
+        uses: logseq/rdf-export@main
         with:
           rdfFile: notes.ttl
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
+          file_pattern: 'notes.ttl'
           commit_message: "Update linked data"
