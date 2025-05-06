@@ -1,0 +1,429 @@
+[
+    {
+        "@id": "https://notes.ross.ch/#/page/Boolean",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Boolean"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Boolean"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Class",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://www.w3.org/2000/01/rdf-schema#Class"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Defines user defined classes/types in this graph"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Class"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/DataType",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "DataType"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/DataType"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Note",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A note"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Note"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Note"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Property",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Defines user defined properties in this graph"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Property"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Thing"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/StringWithRefs",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "String that can have page references"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "StringWithRefs"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/StringWithRefs"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Thing",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "The simplest concept which all classes inherit from."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Thing"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Thing"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Uri",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Uri"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/URL"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/description",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/StringWithRefs"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "description"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/description"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/domainincludes",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/domainIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/domainIncludes"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A more useful version of rdfs:domain as it can be one of multiple values"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "domainincludes"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/domainIncludes"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/parent",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/domainIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Used to connect a class with its parent class"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "parent"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/rangeincludes",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/domainIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/rangeIncludes"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "List of values a property can have"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "rangeincludes"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/rangeIncludes"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/sameAs",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Uri"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Indicates that two URIs are equivalent"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "sameAs"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://www.w3.org/2002/07/owl#sameAs"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/type",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "type"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/unique",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/domainIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Boolean"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "unique"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/unique"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/url",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Uri"
+            }
+        ],
+        "https://notes.ross.ch/#/page/unique": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "url"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/url"
+            }
+        ]
+    }
+]
