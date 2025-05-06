@@ -3,12 +3,12 @@ on:
   push:
     branches:
       - main
-permissions:
-  contents: write
 jobs:
-  test:
+  publish-spa:
     runs-on: ubuntu-latest
     name: Publish Logseq SPA
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
       - name: Build
@@ -21,3 +21,19 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           command: pages deploy dist/ --project-name=notes
+  publish-data:
+    runs-on: ubuntu-latest
+    name: Publish Linked Data
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Export graph as RDF
+        uses: logseq/rdf-export@main
+        with:
+          rdfFile: notes.ttl
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update linked data"
