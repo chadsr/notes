@@ -1,4 +1,5 @@
 type:: [[Class]]
 parent:: [[DataType]]
-url:: https://schema.org/URL
+url:: {{notes-base-url URI}}
+sameAs:: https://schema.org/URL
 exclude-from-graph-view:: true

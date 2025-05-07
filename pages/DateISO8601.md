@@ -1,4 +1,5 @@
 type:: [[Class]]
 parent:: [[DataType]]
-url:: https://schema.org/Date
+url:: {{notes-base-url DateISO8601}}
+sameas:: https://schema.org/Date
 exclude-from-graph-view:: true
