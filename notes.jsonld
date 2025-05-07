@@ -158,7 +158,7 @@
         "@type": [
             "https://notes.ross.ch/#/page/Journal"
         ],
-        "https://notes.ross.ch/#/page/datecreated": [
+        "https://schema.org/dateCreated": [
             {
                 "@value": "06-05-2025"
             }
@@ -334,14 +334,9 @@
         ]
     },
     {
-        "@id": "https://notes.ross.ch/#/page/dateCreated",
+        "@id": "https://notes.ross.ch/#/page/datecreated",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
-        ],
-        "https://notes.ross.ch/#/page/domainIncludes": [
-            {
-                "@id": "https://notes.ross.ch/#/page/Property"
-            }
         ],
         "https://notes.ross.ch/#/page/exclude-from-graph-view": [
             {
@@ -356,7 +351,7 @@
         ],
         "https://schema.org/name": [
             {
-                "@value": "dateCreated"
+                "@value": "datecreated"
             }
         ],
         "https://schema.org/url": [
