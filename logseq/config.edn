@@ -18,7 +18,7 @@
  ;; When creating the new journal page, the app will use your template if there is one.
  ;; You only need to input your template name here.
  :default-templates
- {:journals ""}
+ {:journals "Journal"}
 
  ;; Set a custom date format for journal page title
  ;; Example:
