@@ -1,6 +1,6 @@
 type:: [[Property]]
 exclude-from-graph-view:: true
 title:: dateCreated
-rangeIncludes:: [[Date]]
+rangeIncludes:: [[DateTime]]
 domainIncludes:: [[Property]]
 url:: https://schema.org/dateCreated
