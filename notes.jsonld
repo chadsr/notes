@@ -10,11 +10,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
-        "https://notes.ross.ch/#/page/sameas": [
-            {
-                "@id": "https://schema.org/Boolean"
-            }
-        ],
         "https://schema.org/name": [
             {
                 "@value": "Boolean"
@@ -79,11 +74,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
-        "https://notes.ross.ch/#/page/sameas": [
-            {
-                "@id": "https://schema.org/DataType"
-            }
-        ],
         "https://schema.org/description": [
             {
                 "@value": "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible"
@@ -106,9 +96,41 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Date",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Date"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Date"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Journal",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/Periodical"
+            }
         ],
         "https://schema.org/description": [
             {
@@ -136,9 +158,14 @@
         "@type": [
             "https://notes.ross.ch/#/page/Journal"
         ],
-        "https://notes.ross.ch/#/page/date": [
+        "https://notes.ross.ch/#/page/datecreated": [
             {
-                "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025"
+                "@value": "06-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Towards publishing my notes and research as self-describing, public information."
             }
         ],
         "https://schema.org/name": [
@@ -151,6 +178,11 @@
         "@id": "https://notes.ross.ch/#/page/Note",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/Article"
+            }
         ],
         "https://schema.org/description": [
             {
@@ -280,6 +312,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/URL"
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "Uri"
@@ -287,12 +324,44 @@
         ],
         "https://schema.org/url": [
             {
-                "@id": "https://schema.org/URL"
+                "@id": "https://notes.ross.ch/#/page/Uri"
             }
         ],
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
                 "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/dateCreated",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/domainIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Date"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "dateCreated"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/dateCreated"
             }
         ]
     },

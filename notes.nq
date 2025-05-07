@@ -1,6 +1,5 @@
 <https://notes.ross.ch/#/page/Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Boolean> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://notes.ross.ch/#/page/Boolean> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Boolean> .
 <https://notes.ross.ch/#/page/Boolean> <https://schema.org/name> "Boolean" .
 <https://notes.ross.ch/#/page/Boolean> <https://schema.org/url> <https://schema.org/Boolean> .
 <https://notes.ross.ch/#/page/Boolean> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
@@ -13,20 +12,27 @@
 <https://notes.ross.ch/#/page/Class> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/DataType> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://notes.ross.ch/#/page/DataType> <https://notes.ross.ch/#/page/sameas> <https://schema.org/DataType> .
 <https://notes.ross.ch/#/page/DataType> <https://schema.org/description> "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible" .
 <https://notes.ross.ch/#/page/DataType> <https://schema.org/name> "DataType" .
 <https://notes.ross.ch/#/page/DataType> <https://schema.org/url> <https://schema.org/DataType> .
 <https://notes.ross.ch/#/page/DataType> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Date> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/Date> <https://schema.org/name> "Date" .
+<https://notes.ross.ch/#/page/Date> <https://schema.org/url> <https://schema.org/Date> .
+<https://notes.ross.ch/#/page/Date> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
 <https://notes.ross.ch/#/page/Journal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Journal> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Periodical> .
 <https://notes.ross.ch/#/page/Journal> <https://schema.org/description> "A journal entry" .
 <https://notes.ross.ch/#/page/Journal> <https://schema.org/name> "Journal" .
 <https://notes.ross.ch/#/page/Journal> <https://schema.org/url> <https://notes.ross.ch/#/page/Journal> .
 <https://notes.ross.ch/#/page/Journal> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Journal> .
-<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/date> <https://notes.ross.ch/#/page/May%206th%2C%202025> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/datecreated> "06-05-2025" .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/description> "Towards publishing my notes and research as self-describing, public information." .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/name> "May 6th, 2025" .
 <https://notes.ross.ch/#/page/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Note> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Article> .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/description> "A note" .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/name> "Note" .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/url> <https://notes.ross.ch/#/page/Note> .
@@ -51,9 +57,16 @@
 <https://notes.ross.ch/#/page/Thing> <https://schema.org/url> <https://schema.org/Thing> .
 <https://notes.ross.ch/#/page/Uri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Uri> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/Uri> <https://notes.ross.ch/#/page/sameas> <https://schema.org/URL> .
 <https://notes.ross.ch/#/page/Uri> <https://schema.org/name> "Uri" .
-<https://notes.ross.ch/#/page/Uri> <https://schema.org/url> <https://schema.org/URL> .
+<https://notes.ross.ch/#/page/Uri> <https://schema.org/url> <https://notes.ross.ch/#/page/Uri> .
 <https://notes.ross.ch/#/page/Uri> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/dateCreated> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/dateCreated> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/dateCreated> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/dateCreated> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Date> .
+<https://notes.ross.ch/#/page/dateCreated> <https://schema.org/name> "dateCreated" .
+<https://notes.ross.ch/#/page/dateCreated> <https://schema.org/url> <https://schema.org/dateCreated> .
 <https://notes.ross.ch/#/page/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/description> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/description> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/StringWithRefs> .
