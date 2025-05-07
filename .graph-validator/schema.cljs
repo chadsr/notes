@@ -38,5 +38,5 @@
 
 (deftest journal-schema
   (let [props (get-properties-for-type "Journal")]
-    (is (empty? (remove :date props))
-        "All journals should have a :date property")))
+    (is (empty? (remove :datecreated props))
+        "All journals should have a :datecreated property")))
