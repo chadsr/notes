@@ -35,3 +35,8 @@
   (let [props (get-properties-for-type "Note")]
     (is (empty? (remove :description props))
         "All notes should have a :description property")))
+
+(deftest journal-schema
+  (let [props (get-properties-for-type "Journal")]
+    (is (empty? (remove :date props))
+        "All journals should have a :date property")))

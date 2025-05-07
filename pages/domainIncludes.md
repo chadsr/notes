@@ -4,3 +4,4 @@ description:: A more useful version of rdfs:domain as it can be one of multiple 
 sameAs:: https://schema.org/domainIncludes
 domainIncludes:: [[Property]]
 rangeIncludes:: [[Class]]
+exclude-from-graph-view:: true
