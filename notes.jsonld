@@ -4,6 +4,17 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/Boolean"
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "Boolean"
@@ -24,6 +35,12 @@
         "@id": "https://notes.ross.ch/#/page/Class",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/sameas": [
             {
@@ -56,6 +73,17 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/DataType"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible"
@@ -78,13 +106,39 @@
         ]
     },
     {
-        "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025",
+        "@id": "https://notes.ross.ch/#/page/Journal",
         "@type": [
-            "https://notes.ross.ch/#/page/Note"
+            "https://notes.ross.ch/#/page/Class"
         ],
         "https://schema.org/description": [
             {
-                "@value": "Towards publishing my notes and research as self-describing, public information"
+                "@value": "A journal entry"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Journal"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Journal"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025",
+        "@type": [
+            "https://notes.ross.ch/#/page/Journal"
+        ],
+        "https://notes.ross.ch/#/page/date": [
+            {
+                "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025"
             }
         ],
         "https://schema.org/name": [
@@ -124,6 +178,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/sameas": [
             {
                 "@id": "https://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
@@ -155,6 +215,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "String that can have page references"
@@ -181,6 +247,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "The simplest concept which all classes inherit from."
@@ -202,6 +274,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "Uri"
@@ -222,6 +300,12 @@
         "@id": "https://notes.ross.ch/#/page/description",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
@@ -247,6 +331,12 @@
         "https://notes.ross.ch/#/page/domainIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
@@ -285,6 +375,12 @@
                 "@id": "https://notes.ross.ch/#/page/Class"
             }
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/Class"
@@ -314,6 +410,12 @@
         "https://notes.ross.ch/#/page/domainIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/Property"
+            }
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
@@ -347,6 +449,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Property"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/Uri"
@@ -372,6 +480,12 @@
         "@id": "https://notes.ross.ch/#/page/type",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
@@ -399,6 +513,12 @@
                 "@id": "https://notes.ross.ch/#/page/Property"
             }
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/Boolean"
@@ -419,6 +539,12 @@
         "@id": "https://notes.ross.ch/#/page/url",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
