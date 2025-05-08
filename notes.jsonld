@@ -1,5 +1,31 @@
 [
     {
+        "@id": "https://notes.ross.ch/#/page/Article",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Article"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Article"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/CreativeWork"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Boolean",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -23,6 +49,22 @@
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
                 "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Chengru%20Zhang",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/The%20University%20of%20Hong%20Kong"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Chengru Zhang"
             }
         ]
     },
@@ -60,6 +102,38 @@
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
                 "@id": "https://notes.ross.ch/#/page/Class"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/CreativeWork",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "The most generic kind of creative work, including books, movies, photographs, software programs, etc."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "CreativeWork"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/CreativeWork"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Thing"
             }
         ]
     },
@@ -123,6 +197,43 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/EducationalOrganization",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "EducationalOrganization"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/EducationalOrganization"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Organization"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Jens%20Ernstberger",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Technical%20University%20of%20Munich"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Jens Ernstberger"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Journal",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -154,9 +265,30 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Luca%20Ciprian",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Technical%20University%20of%20Munich"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Luca Ciprian"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025",
         "@type": [
             "https://notes.ross.ch/#/page/Journal"
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
         ],
         "https://schema.org/dateCreated": [
             {
@@ -206,6 +338,74 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Organization",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "An organization such as a school, NGO, corporation, club, etc."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Organization"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Organization"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Thing"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Person",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A person (alive, dead, undead, or fictional)."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Person"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Person"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Thing"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Philipp%20Jovanovic",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/University%20College%20London"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Philipp Jovanovic"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Property",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -243,6 +443,91 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Ross Chadwick"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/ScholarlyArticle",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A scholarly article."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "ScholarlyArticle"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/ScholarlyArticle"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Article"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Sebastian%20Steinhorst",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Technical%20University%20of%20Munich"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Sebastian Steinhorst"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/String",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/Text"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "String"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/String"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/StringWithRefs",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -275,6 +560,28 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Technical%20University%20of%20Munich",
+        "@type": [
+            "https://notes.ross.ch/#/page/University"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Technical University of Munich"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/The%20University%20of%20Hong%20Kong",
+        "@type": [
+            "https://notes.ross.ch/#/page/University"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "The University of Hong Kong"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Thing",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -298,6 +605,48 @@
         "https://schema.org/url": [
             {
                 "@id": "https://schema.org/Thing"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/University",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/CollegeOrUniversity"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A university."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "University"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/University"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/EducationalOrganization"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/University%20College%20London",
+        "@type": [
+            "https://notes.ross.ch/#/page/University"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "University College London"
             }
         ]
     },
@@ -334,6 +683,154 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs",
+        "@type": [
+            "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "08-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Location-Privacy"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/SNARK"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZKLP"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZKP"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/abstract",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/String"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "abstract"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/abstract"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/alumniOf",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/EducationalOrganization"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Organization"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "An organization that the person is an alumni of."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "alumniOf"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/alumniOf"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/author",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Organization"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Person"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "author"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/author"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/contributor",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Organization"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Person"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "contributor"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "http://schema.org/contributor"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/datecreated",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
@@ -361,6 +858,33 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/datepublished",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Date"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "datepublished"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/datePublished"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/description",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
@@ -384,6 +908,44 @@
         "https://schema.org/url": [
             {
                 "@id": "https://schema.org/description"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/doi",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Uri"
+            }
+        ],
+        "https://notes.ross.ch/#/page/unique": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Digital Object Identifier (DOI) URL"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "doi"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/doi"
             }
         ]
     },
@@ -426,6 +988,115 @@
         "https://schema.org/url": [
             {
                 "@id": "https://notes.ross.ch/#/page/domainIncludes"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/file",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/StringWithRefs"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "file"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/file"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/file-path",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/String"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "file-path"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/file-path"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0",
+        "http://schema.org/contributor": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Luca%20Ciprian"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Philipp%20Jovanovic"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Sebastian%20Steinhorst"
+            }
+        ],
+        "@type": [
+            "https://notes.ross.ch/#/page/ScholarlyArticle"
+        ],
+        "https://notes.ross.ch/#/page/doi": [
+            {
+                "@id": "https://doi.org/10.48550/arXiv.2404.14983"
+            }
+        ],
+        "https://notes.ross.ch/#/page/file": [
+            {
+                "@value": "[Zero-Knowledge_Location_Privacy_2404.14983v2_1746711737485_0.pdf](../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746711737485_0.pdf)"
+            }
+        ],
+        "https://notes.ross.ch/#/page/file-path": [
+            {
+                "@value": "../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746711737485_0.pdf"
+            }
+        ],
+        "https://schema.org/abstract": [
+            {
+                "@value": "\"We introduce Zero-Knowledge Location Privacy (ZKLP), enabling users to prove to third parties that they are within a specified geographical region while not disclosing their exact location. ZKLP supports varying levels of granularity, allowing for customization depending on the use case. To realize ZKLP, we introduce the first set of Zero-Knowledge Proof (ZKP) circuits that are fully compliant to the IEEE 754 standard for floating-point arithmetic. Our results demonstrate that our floating point circuits amortize efficiently, requiring only 64 constraints per operation for 2 15 single-precision floating-point multiplications. We utilize our floating point implementation to realize the ZKLP paradigm. In comparison to a baseline, we find that our optimized implementation has 15.9× less constraints utilizing single precision floating-point values, and 12.2× less constraints when utilizing double precision floating-point values. We demonstrate the practicability of ZKLP by building a protocol for privacy preserving peer-to-peer proximity testing — Alice can test if she is close to Bob by receiving a single message, without either party revealing any other information about their location. In such a setting, Bob can create a proof of (non-)proximity in 0.26 s, whereas Alice can verify her distance to about 470 peers per second.\""
+            }
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Chengru%20Zhang"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Jens%20Ernstberger"
+            }
+        ],
+        "https://schema.org/datePublished": [
+            {
+                "@value": "23-04-2024"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0"
             }
         ]
     },
