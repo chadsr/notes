@@ -26,6 +26,32 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Book",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Book"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/Book"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/CreativeWork"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Boolean",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -138,6 +164,22 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Dan%20Boneh",
+        "@type": [
+            "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/alumniof": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Stanford%20University"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Dan Boneh"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/DataType",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -193,6 +235,32 @@
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
                 "@id": "https://notes.ross.ch/#/page/DataType"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/DigitalDocument",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "An electronic file or document."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "DigitalDocument"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/DigitalDocument"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/CreativeWork"
             }
         ]
     },
@@ -265,6 +333,17 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Least%20Authority",
+        "@type": [
+            "https://notes.ross.ch/#/page/Organization"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Least Authority"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Luca%20Ciprian",
         "@type": [
             "https://notes.ross.ch/#/page/Person"
@@ -307,13 +386,51 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Moonmath%20Manual",
+        "@type": [
+            "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "10-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@id": "https://notes.ross.ch/#/page/SNARK"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZK-SNARK"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZKP"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/learning-resource"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Moonmath Manual"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Note",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
         "https://notes.ross.ch/#/page/sameas": [
             {
-                "@id": "https://schema.org/Article"
+                "@id": "https://schema.org/NoteDigitalDocument"
             }
         ],
         "https://schema.org/description": [
@@ -333,7 +450,7 @@
         ],
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
-                "@id": "https://notes.ross.ch/#/page/Class"
+                "@id": "https://notes.ross.ch/#/page/DigitalDocument"
             }
         ]
     },
@@ -367,6 +484,12 @@
         "@id": "https://notes.ross.ch/#/page/Person",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://schema.org/description": [
             {
@@ -402,6 +525,32 @@
         "https://schema.org/name": [
             {
                 "@value": "Philipp Jovanovic"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/PresentationDigitalDocument",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A file containing slides or used for a presentation."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "PresentationDigitalDocument"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/PresentationDigitalDocument"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/DigitalDocument"
             }
         ]
     },
@@ -446,6 +595,12 @@
         "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick",
         "@type": [
             "https://notes.ross.ch/#/page/Person"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://schema.org/name": [
             {
@@ -492,6 +647,69 @@
         "https://schema.org/name": [
             {
                 "@value": "Sebastian Steinhorst"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Stanford%20University",
+        "@type": [
+            "https://notes.ross.ch/#/page/University"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Stanford University"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Starkware",
+        "@type": [
+            "https://notes.ross.ch/#/page/Organization"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Starkware"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Starkware%20STARK%20101",
+        "@type": [
+            "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "10-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@id": "https://notes.ross.ch/#/page/ZKP"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/interactive-learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/video-learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/zk-snark"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Starkware STARK 101"
             }
         ]
     },
@@ -683,6 +901,58 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/ZK%20Hack",
+        "@type": [
+            "https://notes.ross.ch/#/page/Organization"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "ZK Hack"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions",
+        "@type": [
+            "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "10-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@id": "https://notes.ross.ch/#/page/ZKP"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/interactive-learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/video-learning-resource"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/zk-snark"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "ZK Hack Whiteboard Sessions"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs",
         "@type": [
             "https://notes.ross.ch/#/page/Note"
@@ -752,6 +1022,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Property"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
                 "@id": "https://notes.ross.ch/#/page/EducationalOrganization"
@@ -807,9 +1083,42 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/bookedition",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/String"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "bookedition"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/bookEdition"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/contributor",
         "@type": [
             "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
@@ -1046,6 +1355,37 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0",
+        "@type": [
+            "https://notes.ross.ch/#/page/PresentationDigitalDocument"
+        ],
+        "https://notes.ross.ch/#/page/file": [
+            {
+                "@value": "[STARK101-Part1_1746902548323_0.pdf](../assets/STARK101-Part1_1746902548323_0.pdf)"
+            }
+        ],
+        "https://notes.ross.ch/#/page/file-path": [
+            {
+                "@value": "../assets/STARK101-Part1_1746902548323_0.pdf"
+            }
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Starkware"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Statement, LDE and Commitment"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "hls__STARK101-Part1_1746902548323_0"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0",
         "http://schema.org/contributor": [
             {
@@ -1097,6 +1437,76 @@
         "https://schema.org/name": [
             {
                 "@value": "hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0",
+        "@type": [
+            "https://notes.ross.ch/#/page/Book"
+        ],
+        "https://notes.ross.ch/#/page/file": [
+            {
+                "@value": "[moonmath-v1.1.5_1746894282402_0.pdf](../assets/moonmath-v1.1.5_1746894282402_0.pdf)"
+            }
+        ],
+        "https://notes.ross.ch/#/page/file-path": [
+            {
+                "@value": "../assets/moonmath-v1.1.5_1746894282402_0.pdf"
+            }
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Least%20Authority"
+            }
+        ],
+        "https://schema.org/bookEdition": [
+            {
+                "@value": "v1.1.5"
+            }
+        ],
+        "https://schema.org/datePublished": [
+            {
+                "@value": "11-06-2024"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A resource for anyone interested in understanding and unlocking the potential of zk-SNARKs, from beginners to experts."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "hls__moonmath-v1.1.5_1746894282402_0"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0",
+        "@type": [
+            "https://notes.ross.ch/#/page/PresentationDigitalDocument"
+        ],
+        "https://notes.ross.ch/#/page/file": [
+            {
+                "@value": "[zk_whiteboard_segment1_1746895258465_0.pdf](../assets/zk_whiteboard_segment1_1746895258465_0.pdf)"
+            }
+        ],
+        "https://notes.ross.ch/#/page/file-path": [
+            {
+                "@value": "../assets/zk_whiteboard_segment1_1746895258465_0.pdf"
+            }
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Dan%20Boneh"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZK%20Hack"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "hls__zk_whiteboard_segment1_1746895258465_0"
             }
         ]
     },

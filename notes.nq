@@ -3,6 +3,11 @@
 <https://notes.ross.ch/#/page/Article> <https://schema.org/name> "Article" .
 <https://notes.ross.ch/#/page/Article> <https://schema.org/url> <https://schema.org/Article> .
 <https://notes.ross.ch/#/page/Article> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
+<https://notes.ross.ch/#/page/Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Book> <https://schema.org/description> "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all." .
+<https://notes.ross.ch/#/page/Book> <https://schema.org/name> "Book" .
+<https://notes.ross.ch/#/page/Book> <https://schema.org/url> <https://schema.org/Book> .
+<https://notes.ross.ch/#/page/Book> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
 <https://notes.ross.ch/#/page/Boolean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Boolean> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Boolean> <https://schema.org/name> "Boolean" .
@@ -24,6 +29,9 @@
 <https://notes.ross.ch/#/page/CreativeWork> <https://schema.org/name> "CreativeWork" .
 <https://notes.ross.ch/#/page/CreativeWork> <https://schema.org/url> <https://schema.org/CreativeWork> .
 <https://notes.ross.ch/#/page/CreativeWork> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Thing> .
+<https://notes.ross.ch/#/page/Dan%20Boneh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
+<https://notes.ross.ch/#/page/Dan%20Boneh> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Stanford%20University> .
+<https://notes.ross.ch/#/page/Dan%20Boneh> <https://schema.org/name> "Dan Boneh" .
 <https://notes.ross.ch/#/page/DataType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/DataType> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/DataType> <https://schema.org/description> "Provides basic data types such as integers, strings, etc. See https://www.w3.org/TR/rdf12-concepts/#section-Datatypes for additional datatypes that could be possible" .
@@ -35,6 +43,11 @@
 <https://notes.ross.ch/#/page/Date> <https://schema.org/name> "Date" .
 <https://notes.ross.ch/#/page/Date> <https://schema.org/url> <https://schema.org/Date> .
 <https://notes.ross.ch/#/page/Date> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/DigitalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/DigitalDocument> <https://schema.org/description> "An electronic file or document." .
+<https://notes.ross.ch/#/page/DigitalDocument> <https://schema.org/name> "DigitalDocument" .
+<https://notes.ross.ch/#/page/DigitalDocument> <https://schema.org/url> <https://schema.org/DigitalDocument> .
+<https://notes.ross.ch/#/page/DigitalDocument> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
 <https://notes.ross.ch/#/page/EducationalOrganization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/EducationalOrganization> <https://schema.org/name> "EducationalOrganization" .
 <https://notes.ross.ch/#/page/EducationalOrganization> <https://schema.org/url> <https://schema.org/EducationalOrganization> .
@@ -48,6 +61,8 @@
 <https://notes.ross.ch/#/page/Journal> <https://schema.org/name> "Journal" .
 <https://notes.ross.ch/#/page/Journal> <https://schema.org/url> <https://notes.ross.ch/#/page/Journal> .
 <https://notes.ross.ch/#/page/Journal> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Least%20Authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
+<https://notes.ross.ch/#/page/Least%20Authority> <https://schema.org/name> "Least Authority" .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://schema.org/name> "Luca Ciprian" .
@@ -56,18 +71,28 @@
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/dateCreated> "06-05-2025" .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/description> "Towards publishing my notes and research as self-describing, public information." .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/name> "May 6th, 2025" .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/dateCreated> "10-05-2025" .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/description> <https://notes.ross.ch/#/page/SNARK> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/description> <https://notes.ross.ch/#/page/ZK-SNARK> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/description> <https://notes.ross.ch/#/page/ZKP> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/description> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/description> <https://notes.ross.ch/#/page/learning-resource> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://schema.org/name> "Moonmath Manual" .
 <https://notes.ross.ch/#/page/Note> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
-<https://notes.ross.ch/#/page/Note> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Article> .
+<https://notes.ross.ch/#/page/Note> <https://notes.ross.ch/#/page/sameas> <https://schema.org/NoteDigitalDocument> .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/description> "A note" .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/name> "Note" .
 <https://notes.ross.ch/#/page/Note> <https://schema.org/url> <https://notes.ross.ch/#/page/Note> .
-<https://notes.ross.ch/#/page/Note> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Note> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DigitalDocument> .
 <https://notes.ross.ch/#/page/Organization> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Organization> <https://schema.org/description> "An organization such as a school, NGO, corporation, club, etc." .
 <https://notes.ross.ch/#/page/Organization> <https://schema.org/name> "Organization" .
 <https://notes.ross.ch/#/page/Organization> <https://schema.org/url> <https://schema.org/Organization> .
 <https://notes.ross.ch/#/page/Organization> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Thing> .
 <https://notes.ross.ch/#/page/Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Person> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Person> <https://schema.org/description> "A person (alive, dead, undead, or fictional)." .
 <https://notes.ross.ch/#/page/Person> <https://schema.org/name> "Person" .
 <https://notes.ross.ch/#/page/Person> <https://schema.org/url> <https://schema.org/Person> .
@@ -75,6 +100,11 @@
 <https://notes.ross.ch/#/page/Philipp%20Jovanovic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Philipp%20Jovanovic> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/University%20College%20London> .
 <https://notes.ross.ch/#/page/Philipp%20Jovanovic> <https://schema.org/name> "Philipp Jovanovic" .
+<https://notes.ross.ch/#/page/PresentationDigitalDocument> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://schema.org/description> "A file containing slides or used for a presentation." .
+<https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://schema.org/name> "PresentationDigitalDocument" .
+<https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://schema.org/url> <https://schema.org/PresentationDigitalDocument> .
+<https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DigitalDocument> .
 <https://notes.ross.ch/#/page/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Property> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Property> <https://notes.ross.ch/#/page/sameas> <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -83,6 +113,7 @@
 <https://notes.ross.ch/#/page/Property> <https://schema.org/url> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/Property> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Thing> .
 <https://notes.ross.ch/#/page/Ross%20Chadwick> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
+<https://notes.ross.ch/#/page/Ross%20Chadwick> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Ross%20Chadwick> <https://schema.org/name> "Ross Chadwick" .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <https://schema.org/description> "A scholarly article." .
@@ -92,6 +123,20 @@
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://schema.org/name> "Sebastian Steinhorst" .
+<https://notes.ross.ch/#/page/Stanford%20University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/University> .
+<https://notes.ross.ch/#/page/Stanford%20University> <https://schema.org/name> "Stanford University" .
+<https://notes.ross.ch/#/page/Starkware> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
+<https://notes.ross.ch/#/page/Starkware> <https://schema.org/name> "Starkware" .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/dateCreated> "10-05-2025" .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/ZKP> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/interactive-learning-resource> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/learning-resource> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/video-learning-resource> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/description> <https://notes.ross.ch/#/page/zk-snark> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://schema.org/name> "Starkware STARK 101" .
 <https://notes.ross.ch/#/page/String> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/String> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/String> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Text> .
@@ -127,6 +172,18 @@
 <https://notes.ross.ch/#/page/Uri> <https://schema.org/name> "Uri" .
 <https://notes.ross.ch/#/page/Uri> <https://schema.org/url> <https://notes.ross.ch/#/page/Uri> .
 <https://notes.ross.ch/#/page/Uri> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DataType> .
+<https://notes.ross.ch/#/page/ZK%20Hack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
+<https://notes.ross.ch/#/page/ZK%20Hack> <https://schema.org/name> "ZK Hack" .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/dateCreated> "10-05-2025" .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/ZKP> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/interactive-learning-resource> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/learning-resource> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/video-learning-resource> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/zk-snark> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/name> "ZK Hack Whiteboard Sessions" .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/dateCreated> "08-05-2025" .
@@ -142,6 +199,7 @@
 <https://notes.ross.ch/#/page/abstract> <https://schema.org/name> "abstract" .
 <https://notes.ross.ch/#/page/abstract> <https://schema.org/url> <https://schema.org/abstract> .
 <https://notes.ross.ch/#/page/alumniOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/alumniOf> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/alumniOf> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/EducationalOrganization> .
 <https://notes.ross.ch/#/page/alumniOf> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Organization> .
 <https://notes.ross.ch/#/page/alumniOf> <https://schema.org/description> "An organization that the person is an alumni of." .
@@ -153,7 +211,13 @@
 <https://notes.ross.ch/#/page/author> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/author> <https://schema.org/name> "author" .
 <https://notes.ross.ch/#/page/author> <https://schema.org/url> <https://schema.org/author> .
+<https://notes.ross.ch/#/page/bookedition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/bookedition> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/bookedition> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/String> .
+<https://notes.ross.ch/#/page/bookedition> <https://schema.org/name> "bookedition" .
+<https://notes.ross.ch/#/page/bookedition> <https://schema.org/url> <https://schema.org/bookEdition> .
 <https://notes.ross.ch/#/page/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/contributor> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/contributor> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Organization> .
 <https://notes.ross.ch/#/page/contributor> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/contributor> <https://schema.org/name> "contributor" .
@@ -198,6 +262,12 @@
 <https://notes.ross.ch/#/page/file-path> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/String> .
 <https://notes.ross.ch/#/page/file-path> <https://schema.org/name> "file-path" .
 <https://notes.ross.ch/#/page/file-path> <https://schema.org/url> <https://notes.ross.ch/#/page/file-path> .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/PresentationDigitalDocument> .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <https://notes.ross.ch/#/page/file> "[STARK101-Part1_1746902548323_0.pdf](../assets/STARK101-Part1_1746902548323_0.pdf)" .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <https://notes.ross.ch/#/page/file-path> "../assets/STARK101-Part1_1746902548323_0.pdf" .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <https://schema.org/author> <https://notes.ross.ch/#/page/Starkware> .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <https://schema.org/description> "Statement, LDE and Commitment" .
+<https://notes.ross.ch/#/page/hls__STARK101-Part1_1746902548323_0> <https://schema.org/name> "hls__STARK101-Part1_1746902548323_0" .
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <http://schema.org/contributor> <https://notes.ross.ch/#/page/Luca%20Ciprian> .
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <http://schema.org/contributor> <https://notes.ross.ch/#/page/Philipp%20Jovanovic> .
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <http://schema.org/contributor> <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> .
@@ -210,6 +280,20 @@
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <https://schema.org/author> <https://notes.ross.ch/#/page/Jens%20Ernstberger> .
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <https://schema.org/datePublished> "23-04-2024" .
 <https://notes.ross.ch/#/page/hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0> <https://schema.org/name> "hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0" .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Book> .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://notes.ross.ch/#/page/file> "[moonmath-v1.1.5_1746894282402_0.pdf](../assets/moonmath-v1.1.5_1746894282402_0.pdf)" .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://notes.ross.ch/#/page/file-path> "../assets/moonmath-v1.1.5_1746894282402_0.pdf" .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://schema.org/author> <https://notes.ross.ch/#/page/Least%20Authority> .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://schema.org/bookEdition> "v1.1.5" .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://schema.org/datePublished> "11-06-2024" .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://schema.org/description> "A resource for anyone interested in understanding and unlocking the potential of zk-SNARKs, from beginners to experts." .
+<https://notes.ross.ch/#/page/hls__moonmath-v1.1.5_1746894282402_0> <https://schema.org/name> "hls__moonmath-v1.1.5_1746894282402_0" .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/PresentationDigitalDocument> .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <https://notes.ross.ch/#/page/file> "[zk_whiteboard_segment1_1746895258465_0.pdf](../assets/zk_whiteboard_segment1_1746895258465_0.pdf)" .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <https://notes.ross.ch/#/page/file-path> "../assets/zk_whiteboard_segment1_1746895258465_0.pdf" .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <https://schema.org/author> <https://notes.ross.ch/#/page/Dan%20Boneh> .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <https://schema.org/author> <https://notes.ross.ch/#/page/ZK%20Hack> .
+<https://notes.ross.ch/#/page/hls__zk_whiteboard_segment1_1746895258465_0> <https://schema.org/name> "hls__zk_whiteboard_segment1_1746895258465_0" .
 <https://notes.ross.ch/#/page/parent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/parent> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/parent> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
