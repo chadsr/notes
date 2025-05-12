@@ -34,7 +34,11 @@
 (deftest note-schema
   (let [props (get-properties-for-type "Note")]
     (is (empty? (remove :description props))
-        "All notes should have a :description property")))
+        "All notes should have a :description property")
+    (is (empty? (remove :datecreated props))
+        "All notes should have a :datecreated property")
+    (is (empty? (remove :topic props))
+        "All notes should have a :topic property")))
 
 (deftest journal-schema
   (let [props (get-properties-for-type "Journal")]
