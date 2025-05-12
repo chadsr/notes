@@ -1,7 +1,8 @@
 type:: [[Note]]
 author:: [[Ross Chadwick]]
 datecreated:: 10-05-2025
-description:: **ZK Whiteboard Sessions** is an educational video series produced by **ZK Hack**. It is focused on the building blocks of zero knowledge technology. #ZKP #Zero-Knowledge-Proof #zk-snark #learning-resource #video-learning-resource #interactive-learning-resource
+topic:: #[[Non-interactive Zero-knowledge Proof]] #zk-snark #learning-resource #video-learning-resource #interactive-learning-resource
+description:: Notes on ZK Whiteboard Sessions.
 
 - [ZK Hack Whiteboard Sessions Homepage](https://zkhack.dev/whiteboard/)
 - # Module 1
