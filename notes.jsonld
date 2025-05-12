@@ -400,6 +400,17 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
+        "https://notes.ross.ch/#/page/topic": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/ZK-SNARK"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/learning-resource"
+            }
+        ],
         "https://schema.org/author": [
             {
                 "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
@@ -412,24 +423,33 @@
         ],
         "https://schema.org/description": [
             {
-                "@id": "https://notes.ross.ch/#/page/SNARK"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/ZK-SNARK"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/ZKP"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/learning-resource"
+                "@value": "Notes on moonmath manual"
             }
         ],
         "https://schema.org/name": [
             {
                 "@value": "Moonmath Manual"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Non-interactive Zero-knowledge Proof"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "http://dbpedia.org/resource/Non-interactive_zero-knowledge_proof"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero%20Knowledge%20Proof"
             }
         ]
     },
@@ -749,22 +769,9 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
-        "https://schema.org/author": [
+        "https://notes.ross.ch/#/page/topic": [
             {
-                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
-            }
-        ],
-        "https://schema.org/dateCreated": [
-            {
-                "@value": "10-05-2025"
-            }
-        ],
-        "https://schema.org/description": [
-            {
-                "@id": "https://notes.ross.ch/#/page/ZKP"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+                "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
             },
             {
                 "@id": "https://notes.ross.ch/#/page/interactive-learning-resource"
@@ -777,6 +784,21 @@
             },
             {
                 "@id": "https://notes.ross.ch/#/page/zk-snark"
+            }
+        ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "10-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Notes on STARK 101."
             }
         ],
         "https://schema.org/name": [
@@ -988,22 +1010,9 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
-        "https://schema.org/author": [
+        "https://notes.ross.ch/#/page/topic": [
             {
-                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
-            }
-        ],
-        "https://schema.org/dateCreated": [
-            {
-                "@value": "10-05-2025"
-            }
-        ],
-        "https://schema.org/description": [
-            {
-                "@id": "https://notes.ross.ch/#/page/ZKP"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+                "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
             },
             {
                 "@id": "https://notes.ross.ch/#/page/interactive-learning-resource"
@@ -1018,9 +1027,45 @@
                 "@id": "https://notes.ross.ch/#/page/zk-snark"
             }
         ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "10-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Notes on ZK Whiteboard Sessions."
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "ZK Hack Whiteboard Sessions"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Zero%20Knowledge%20Proof",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Zero Knowledge Proof"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "http://dbpedia.org/resource/Zero-knowledge_proof"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Software"
             }
         ]
     },
@@ -1034,19 +1079,16 @@
                 "@id": "https://notes.ross.ch/#/page/Location-Privacy"
             },
             {
+                "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
+            },
+            {
                 "@id": "https://notes.ross.ch/#/page/Proof-of-Proximity"
             },
             {
-                "@id": "https://notes.ross.ch/#/page/SNARK"
+                "@id": "https://notes.ross.ch/#/page/ZK-SNARK"
             },
             {
                 "@id": "https://notes.ross.ch/#/page/ZKLP"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/ZKP"
-            },
-            {
-                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
             }
         ],
         "https://schema.org/author": [
@@ -1067,32 +1109,6 @@
         "https://schema.org/name": [
             {
                 "@value": "Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs"
-            }
-        ]
-    },
-    {
-        "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof",
-        "@type": [
-            "https://notes.ross.ch/#/page/Class"
-        ],
-        "https://notes.ross.ch/#/page/sameas": [
-            {
-                "@id": "http://dbpedia.org/resource/Zero-knowledge_proof"
-            }
-        ],
-        "https://schema.org/name": [
-            {
-                "@value": "Zero-Knowledge-Proof"
-            }
-        ],
-        "https://schema.org/url": [
-            {
-                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
-            }
-        ],
-        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
-            {
-                "@id": "https://notes.ross.ch/#/page/Software"
             }
         ]
     },
