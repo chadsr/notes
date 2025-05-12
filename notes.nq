@@ -25,6 +25,7 @@
 <https://notes.ross.ch/#/page/Class> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/CreativeWork> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/CreativeWork> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/CreativeWork> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/ontology/Work> .
 <https://notes.ross.ch/#/page/CreativeWork> <https://schema.org/description> "The most generic kind of creative work, including books, movies, photographs, software programs, etc." .
 <https://notes.ross.ch/#/page/CreativeWork> <https://schema.org/name> "CreativeWork" .
 <https://notes.ross.ch/#/page/CreativeWork> <https://schema.org/url> <https://schema.org/CreativeWork> .
@@ -107,6 +108,11 @@
 <https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://schema.org/name> "PresentationDigitalDocument" .
 <https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://schema.org/url> <https://schema.org/PresentationDigitalDocument> .
 <https://notes.ross.ch/#/page/PresentationDigitalDocument> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/DigitalDocument> .
+<https://notes.ross.ch/#/page/PrivateCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/PrivateCompany> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/resource/Private_company> .
+<https://notes.ross.ch/#/page/PrivateCompany> <https://schema.org/name> "PrivateCompany" .
+<https://notes.ross.ch/#/page/PrivateCompany> <https://schema.org/url> <https://notes.ross.ch/#/page/PrivateCompany> .
+<https://notes.ross.ch/#/page/PrivateCompany> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Organization> .
 <https://notes.ross.ch/#/page/Property> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Property> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Property> <https://notes.ross.ch/#/page/sameas> <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -125,9 +131,13 @@
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://schema.org/name> "Sebastian Steinhorst" .
+<https://notes.ross.ch/#/page/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Software> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/ontology/Software> .
+<https://notes.ross.ch/#/page/Software> <https://schema.org/name> "Software" .
+<https://notes.ross.ch/#/page/Software> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
 <https://notes.ross.ch/#/page/Stanford%20University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/University> .
 <https://notes.ross.ch/#/page/Stanford%20University> <https://schema.org/name> "Stanford University" .
-<https://notes.ross.ch/#/page/StarkWare%20Industries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
+<https://notes.ross.ch/#/page/StarkWare%20Industries> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/PrivateCompany> .
 <https://notes.ross.ch/#/page/StarkWare%20Industries> <https://notes.ross.ch/#/page/sameas> <https://dbpedia.org/resource/StarkWare_Industries> .
 <https://notes.ross.ch/#/page/StarkWare%20Industries> <https://schema.org/name> "StarkWare Industries" .
 <https://notes.ross.ch/#/page/Starkware%20STARK%20101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
@@ -162,7 +172,7 @@
 <https://notes.ross.ch/#/page/Thing> <https://schema.org/name> "Thing" .
 <https://notes.ross.ch/#/page/Thing> <https://schema.org/url> <https://schema.org/Thing> .
 <https://notes.ross.ch/#/page/University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
-<https://notes.ross.ch/#/page/University> <https://notes.ross.ch/#/page/sameas> <https://schema.org/CollegeOrUniversity> .
+<https://notes.ross.ch/#/page/University> <https://notes.ross.ch/#/page/sameas> "https://schema.org/CollegeOrUniversity http://dbpedia.org/resource/University" .
 <https://notes.ross.ch/#/page/University> <https://schema.org/description> "A university." .
 <https://notes.ross.ch/#/page/University> <https://schema.org/name> "University" .
 <https://notes.ross.ch/#/page/University> <https://schema.org/url> <https://notes.ross.ch/#/page/University> .
@@ -188,14 +198,21 @@
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/description> <https://notes.ross.ch/#/page/zk-snark> .
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://schema.org/name> "ZK Hack Whiteboard Sessions" .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Location-Privacy> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Proof-of-Proximity> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/SNARK> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/ZKLP> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/ZKP> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/dateCreated> "08-05-2025" .
-<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> <https://notes.ross.ch/#/page/Location-Privacy> .
-<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> <https://notes.ross.ch/#/page/SNARK> .
-<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> <https://notes.ross.ch/#/page/ZKLP> .
-<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> <https://notes.ross.ch/#/page/ZKP> .
-<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/description> "Notes on the paper \"Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs\"" .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://schema.org/name> "Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs" .
+<https://notes.ross.ch/#/page/Zero-Knowledge-Proof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Zero-Knowledge-Proof> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/resource/Zero-knowledge_proof> .
+<https://notes.ross.ch/#/page/Zero-Knowledge-Proof> <https://schema.org/name> "Zero-Knowledge-Proof" .
+<https://notes.ross.ch/#/page/Zero-Knowledge-Proof> <https://schema.org/url> <https://notes.ross.ch/#/page/Zero-Knowledge-Proof> .
+<https://notes.ross.ch/#/page/Zero-Knowledge-Proof> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Software> .
 <https://notes.ross.ch/#/page/abstract> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/abstract> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/abstract> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/String> .
@@ -318,6 +335,11 @@
 <https://notes.ross.ch/#/page/sameAs> <https://schema.org/description> "Indicates that two URIs are equivalent" .
 <https://notes.ross.ch/#/page/sameAs> <https://schema.org/name> "sameAs" .
 <https://notes.ross.ch/#/page/sameAs> <https://schema.org/url> <https://www.w3.org/2002/07/owl#sameAs> .
+<https://notes.ross.ch/#/page/topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/StringWithRefs> .
+<https://notes.ross.ch/#/page/topic> <https://schema.org/name> "topic" .
+<https://notes.ross.ch/#/page/topic> <https://schema.org/url> <https://notes.ross.ch/#/page/topic> .
 <https://notes.ross.ch/#/page/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/type> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/type> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Class> .

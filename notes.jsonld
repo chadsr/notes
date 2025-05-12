@@ -142,6 +142,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "http://dbpedia.org/ontology/Work"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "The most generic kind of creative work, including books, movies, photographs, software programs, etc."
@@ -565,6 +570,32 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/PrivateCompany",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "http://dbpedia.org/resource/Private_company"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "PrivateCompany"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/PrivateCompany"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Organization"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Property",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -661,6 +692,27 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/Software",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "http://dbpedia.org/ontology/Software"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Software"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/CreativeWork"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Stanford%20University",
         "@type": [
             "https://notes.ross.ch/#/page/University"
@@ -674,7 +726,7 @@
     {
         "@id": "https://notes.ross.ch/#/page/StarkWare%20Industries",
         "@type": [
-            "https://notes.ross.ch/#/page/Organization"
+            "https://notes.ross.ch/#/page/PrivateCompany"
         ],
         "https://notes.ross.ch/#/page/sameas": [
             {
@@ -848,7 +900,7 @@
         ],
         "https://notes.ross.ch/#/page/sameas": [
             {
-                "@id": "https://schema.org/CollegeOrUniversity"
+                "@value": "https://schema.org/CollegeOrUniversity http://dbpedia.org/resource/University"
             }
         ],
         "https://schema.org/description": [
@@ -972,19 +1024,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
-        "https://schema.org/author": [
-            {
-                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
-            }
-        ],
-        "https://schema.org/dateCreated": [
-            {
-                "@value": "08-05-2025"
-            }
-        ],
-        "https://schema.org/description": [
+        "https://notes.ross.ch/#/page/topic": [
             {
                 "@id": "https://notes.ross.ch/#/page/Location-Privacy"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Proof-of-Proximity"
             },
             {
                 "@id": "https://notes.ross.ch/#/page/SNARK"
@@ -999,9 +1044,50 @@
                 "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
             }
         ],
+        "https://schema.org/author": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
+            }
+        ],
+        "https://schema.org/dateCreated": [
+            {
+                "@value": "08-05-2025"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "Notes on the paper \"Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs\""
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "http://dbpedia.org/resource/Zero-knowledge_proof"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "Zero-Knowledge-Proof"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Zero-Knowledge-Proof"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Software"
             }
         ]
     },
@@ -1633,6 +1719,33 @@
         "https://schema.org/url": [
             {
                 "@id": "https://www.w3.org/2002/07/owl#sameAs"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/topic",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/StringWithRefs"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "topic"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/topic"
             }
         ]
     },
