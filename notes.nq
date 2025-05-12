@@ -69,6 +69,10 @@
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://schema.org/name> "Luca Ciprian" .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Journal> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Digital-Garden> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Linked-Data> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Logseq> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Networked-Thought> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/author> <https://notes.ross.ch/#/page/Ross%20Chadwick> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/dateCreated> "06-05-2025" .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/description> "Towards publishing my notes and research as self-describing, public information." .

@@ -374,6 +374,20 @@
         "@type": [
             "https://notes.ross.ch/#/page/Journal"
         ],
+        "https://notes.ross.ch/#/page/topic": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Digital-Garden"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Linked-Data"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Logseq"
+            },
+            {
+                "@id": "https://notes.ross.ch/#/page/Networked-Thought"
+            }
+        ],
         "https://schema.org/author": [
             {
                 "@id": "https://notes.ross.ch/#/page/Ross%20Chadwick"
