@@ -706,6 +706,11 @@
                 "@value": "Software"
             }
         ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Software"
+            }
+        ],
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
             {
                 "@id": "https://notes.ross.ch/#/page/CreativeWork"

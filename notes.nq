@@ -134,6 +134,7 @@
 <https://notes.ross.ch/#/page/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Software> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/ontology/Software> .
 <https://notes.ross.ch/#/page/Software> <https://schema.org/name> "Software" .
+<https://notes.ross.ch/#/page/Software> <https://schema.org/url> <https://notes.ross.ch/#/page/Software> .
 <https://notes.ross.ch/#/page/Software> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
 <https://notes.ross.ch/#/page/Stanford%20University> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/University> .
 <https://notes.ross.ch/#/page/Stanford%20University> <https://schema.org/name> "Stanford University" .
