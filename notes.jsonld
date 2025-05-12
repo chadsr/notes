@@ -173,6 +173,11 @@
                 "@id": "https://notes.ross.ch/#/page/Stanford%20University"
             }
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://dbpedia.org/resource/Dan_Boneh"
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "Dan Boneh"
@@ -491,6 +496,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "http://dbpedia.org/ontology/Person"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "A person (alive, dead, undead, or fictional)."
@@ -662,13 +672,18 @@
         ]
     },
     {
-        "@id": "https://notes.ross.ch/#/page/Starkware",
+        "@id": "https://notes.ross.ch/#/page/StarkWare%20Industries",
         "@type": [
             "https://notes.ross.ch/#/page/Organization"
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://dbpedia.org/resource/StarkWare_Industries"
+            }
+        ],
         "https://schema.org/name": [
             {
-                "@value": "Starkware"
+                "@value": "StarkWare Industries"
             }
         ]
     },
@@ -1371,7 +1386,7 @@
         ],
         "https://schema.org/author": [
             {
-                "@id": "https://notes.ross.ch/#/page/Starkware"
+                "@id": "https://notes.ross.ch/#/page/StarkWare%20Industries"
             }
         ],
         "https://schema.org/description": [
