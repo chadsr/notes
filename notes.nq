@@ -1,9 +1,11 @@
 <https://notes.ross.ch/#/page/Article> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Article> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Article> <https://schema.org/description> "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all." .
 <https://notes.ross.ch/#/page/Article> <https://schema.org/name> "Article" .
 <https://notes.ross.ch/#/page/Article> <https://schema.org/url> <https://schema.org/Article> .
 <https://notes.ross.ch/#/page/Article> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
 <https://notes.ross.ch/#/page/Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/Book> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Book> <https://schema.org/description> "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all." .
 <https://notes.ross.ch/#/page/Book> <https://schema.org/name> "Book" .
 <https://notes.ross.ch/#/page/Book> <https://schema.org/url> <https://schema.org/Book> .
@@ -131,6 +133,7 @@
 <https://notes.ross.ch/#/page/Ross%20Chadwick> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Ross%20Chadwick> <https://schema.org/name> "Ross Chadwick" .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/ScholarlyArticle> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <https://schema.org/description> "A scholarly article." .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <https://schema.org/name> "ScholarlyArticle" .
 <https://notes.ross.ch/#/page/ScholarlyArticle> <https://schema.org/url> <https://schema.org/ScholarlyArticle> .

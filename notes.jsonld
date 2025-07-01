@@ -4,6 +4,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://schema.org/description": [
             {
                 "@value": "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all."
@@ -29,6 +35,12 @@
         "@id": "https://notes.ross.ch/#/page/Book",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://schema.org/description": [
             {
@@ -687,6 +699,12 @@
         "@id": "https://notes.ross.ch/#/page/ScholarlyArticle",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://schema.org/description": [
             {
