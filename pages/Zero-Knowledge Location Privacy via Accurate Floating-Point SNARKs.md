@@ -1,6 +1,7 @@
 type:: [[Note]]
 author:: [[Ross Chadwick]]
 datecreated:: 08-05-2025
+published:: false
 topic:: #[[Non-interactive Zero-knowledge Proof]] #Location-Privacy #ZK-SNARK #ZKLP #Proof-of-Proximity
 description:: Notes on the paper "Zero-Knowledge Location Privacy via Accurate Floating-Point SNARKs"
 

@@ -9,6 +9,7 @@ exclude-from-graph-view:: true
 - type:: [[Note]]
   author:: [[Ross Chadwick]]
   datecreated:: 01-01-1979
+  published:: false
   topic::
   description:: Some description of the note's topic
   template:: Note

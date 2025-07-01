@@ -1,6 +1,7 @@
 type:: [[Note]]
 author:: [[Ross Chadwick]]
 datecreated:: 10-05-2025
+published:: false
 topic:: #[[Non-interactive Zero-knowledge Proof]] #zk-snark #learning-resource #video-learning-resource #interactive-learning-resource
 description:: Notes on ZK Whiteboard Sessions.
 

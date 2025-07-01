@@ -1,6 +1,7 @@
 type:: [[Note]]
 author:: [[Ross Chadwick]]
 datecreated:: 10-05-2025
+published:: false
 topic:: #ZK-SNARK #[[Non-interactive Zero-knowledge Proof]] #learning-resource
 description:: Notes on moonmath manual
 
