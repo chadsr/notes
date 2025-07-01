@@ -386,6 +386,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Journal"
         ],
+        "https://notes.ross.ch/#/page/published": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/topic": [
             {
                 "@id": "https://notes.ross.ch/#/page/Digital-Garden"

@@ -71,6 +71,7 @@
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://schema.org/name> "Luca Ciprian" .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Journal> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/published> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Digital-Garden> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Linked-Data> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Logseq> .
