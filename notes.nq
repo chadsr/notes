@@ -80,6 +80,7 @@
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/description> "Towards publishing my notes and research as self-describing, public information." .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://schema.org/name> "May 6th, 2025" .
 <https://notes.ross.ch/#/page/Moonmath%20Manual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Moonmath%20Manual> <https://notes.ross.ch/#/page/published> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Moonmath%20Manual> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof> .
 <https://notes.ross.ch/#/page/Moonmath%20Manual> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/ZK-SNARK> .
 <https://notes.ross.ch/#/page/Moonmath%20Manual> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/learning-resource> .
@@ -152,6 +153,7 @@
 <https://notes.ross.ch/#/page/StarkWare%20Industries> <https://notes.ross.ch/#/page/sameas> <https://dbpedia.org/resource/StarkWare_Industries> .
 <https://notes.ross.ch/#/page/StarkWare%20Industries> <https://schema.org/name> "StarkWare Industries" .
 <https://notes.ross.ch/#/page/Starkware%20STARK%20101> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://notes.ross.ch/#/page/published> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof> .
 <https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/interactive-learning-resource> .
 <https://notes.ross.ch/#/page/Starkware%20STARK%20101> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/learning-resource> .
@@ -199,6 +201,7 @@
 <https://notes.ross.ch/#/page/ZK%20Hack> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
 <https://notes.ross.ch/#/page/ZK%20Hack> <https://schema.org/name> "ZK Hack" .
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://notes.ross.ch/#/page/published> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof> .
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/interactive-learning-resource> .
 <https://notes.ross.ch/#/page/ZK%20Hack%20Whiteboard%20Sessions> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/learning-resource> .
@@ -213,6 +216,7 @@
 <https://notes.ross.ch/#/page/Zero%20Knowledge%20Proof> <https://schema.org/url> <http://dbpedia.org/resource/Zero-knowledge_proof> .
 <https://notes.ross.ch/#/page/Zero%20Knowledge%20Proof> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Software> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Note> .
+<https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/published> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Location-Privacy> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof> .
 <https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Proof-of-Proximity> .
@@ -330,6 +334,11 @@
 <https://notes.ross.ch/#/page/parent> <https://schema.org/description> "Used to connect a class with its parent class" .
 <https://notes.ross.ch/#/page/parent> <https://schema.org/name> "parent" .
 <https://notes.ross.ch/#/page/parent> <https://schema.org/url> <https://www.w3.org/2000/01/rdf-schema#subClassOf> .
+<https://notes.ross.ch/#/page/published> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
+<https://notes.ross.ch/#/page/published> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/published> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/Boolean> .
+<https://notes.ross.ch/#/page/published> <https://schema.org/name> "published" .
+<https://notes.ross.ch/#/page/published> <https://schema.org/url> <https://notes.ross.ch/#/page/published> .
 <https://notes.ross.ch/#/page/rangeincludes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/rangeincludes> <https://notes.ross.ch/#/page/domainIncludes> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/rangeincludes> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .

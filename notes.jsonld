@@ -426,6 +426,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
+        "https://notes.ross.ch/#/page/published": [
+            {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/topic": [
             {
                 "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
@@ -801,6 +807,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
+        "https://notes.ross.ch/#/page/published": [
+            {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/topic": [
             {
                 "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
@@ -1042,6 +1054,12 @@
         "@type": [
             "https://notes.ross.ch/#/page/Note"
         ],
+        "https://notes.ross.ch/#/page/published": [
+            {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
         "https://notes.ross.ch/#/page/topic": [
             {
                 "@id": "https://notes.ross.ch/#/page/Non-interactive%20Zero-knowledge%20Proof"
@@ -1105,6 +1123,12 @@
         "@id": "https://notes.ross.ch/#/page/Zero-Knowledge%20Location%20Privacy%20via%20Accurate%20Floating-Point%20SNARKs",
         "@type": [
             "https://notes.ross.ch/#/page/Note"
+        ],
+        "https://notes.ross.ch/#/page/published": [
+            {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         ],
         "https://notes.ross.ch/#/page/topic": [
             {
@@ -1698,6 +1722,33 @@
         "https://schema.org/url": [
             {
                 "@id": "https://www.w3.org/2000/01/rdf-schema#subClassOf"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/published",
+        "@type": [
+            "https://notes.ross.ch/#/page/Property"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://notes.ross.ch/#/page/rangeIncludes": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Boolean"
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "published"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://notes.ross.ch/#/page/published"
             }
         ]
     },
