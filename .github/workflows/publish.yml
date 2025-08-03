@@ -1,10 +1,10 @@
 name: Publish
 on:
   workflow_run:
-    workflows: ['Test']
+    workflows: ["Test"]
     types: [completed]
     branches:
-      - 'main'
+      - "main"
 permissions:
   contents: write
 jobs:
@@ -34,9 +34,9 @@ jobs:
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v4
         with:
-          cache: 'npm'
+          cache: "npm"
       - name: Export graph as RDF
-        uses: logseq/rdf-export@main
+        uses: logseq/rdf-export@v0.2.1
         with:
           rdfFile: notes.nq
       - name: Convert N-Quads to JSON-LD
@@ -45,5 +45,5 @@ jobs:
           npm run convert
       - uses: stefanzweifel/git-auto-commit-action@v6
         with:
-          file_pattern: 'notes.nq notes.jsonld'
+          file_pattern: "notes.nq notes.jsonld"
           commit_message: "Update linked data"
