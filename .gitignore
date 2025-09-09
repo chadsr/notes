@@ -3,3 +3,4 @@ logseq/.recycle
 .lsp
 .clj-kondo
 node_modules
+dist
