@@ -13,15 +13,21 @@ jobs:
     name: Publish Logseq SPA
     steps:
       - uses: actions/checkout@v5
+      - name: Setup Node.js
+        uses: actions/setup-node@v5
+        with:
+          cache: "npm"
+      - name: Install dependencies
+        run: npm ci
       - name: Build
         uses: logseq/publish-spa@v0.3.1
         with:
           output-directory: dist
       - name: Deploy
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run deploy
+        env:
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
   publish-data:
     runs-on: ubuntu-latest
     name: Publish Linked Data

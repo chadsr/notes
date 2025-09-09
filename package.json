@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Notes",
   "scripts": {
-    "convert": "ts-node ./scripts/convert.ts"
+    "convert": "ts-node ./scripts/convert.ts",
+    "deploy": "wrangler deploy"
   },
   "repository": {
     "type": "git",
