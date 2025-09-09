@@ -17,6 +17,8 @@ jobs:
         uses: actions/setup-node@v5
         with:
           cache: "npm"
+          node-version: "latest"
+          check-latest: true
       - name: Install dependencies
         run: npm ci
       - name: Build
@@ -40,6 +42,8 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           cache: "npm"
+          node-version: "latest"
+          check-latest: true
       - name: Export graph as RDF
         uses: logseq/rdf-export@v0.2.1
         with:
