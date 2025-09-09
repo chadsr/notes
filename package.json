@@ -4,7 +4,7 @@
   "description": "Notes",
   "scripts": {
     "convert": "ts-node ./scripts/convert.ts",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy --assets ./dist"
   },
   "repository": {
     "type": "git",
