@@ -18,9 +18,13 @@ jobs:
       - name: Build
         uses: logseq/publish-spa@v0.3.1
         with:
+          theme-mode: dark
+          accent-color: purple
           output-directory: dist
       - name: Show Changes
-        run: git status -s
+        run: |
+          git status -s
+          ls dist/
       - name: Setup Node.js
         uses: actions/setup-node@v5
         with:
