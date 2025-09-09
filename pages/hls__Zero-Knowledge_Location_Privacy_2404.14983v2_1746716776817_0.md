@@ -2,7 +2,7 @@ file:: [Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf](../ass
 file-path:: ../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf
 type:: [[ScholarlyArticle]]
 datepublished:: 23-04-2024
-doi:: <https://doi.org/10.48550/arXiv.2404.14983>
+doi:: arXiv:2404.14983
 file:: [Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf](../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf)
 file-path:: ../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf
 author:: [[Jens Ernstberger]] [[Chengru Zhang]]
