@@ -1417,7 +1417,7 @@
         ],
         "https://notes.ross.ch/#/page/rangeIncludes": [
             {
-                "@id": "https://notes.ross.ch/#/page/Uri"
+                "@id": "https://notes.ross.ch/#/page/String"
             }
         ],
         "https://notes.ross.ch/#/page/unique": [
@@ -1428,7 +1428,7 @@
         ],
         "https://schema.org/description": [
             {
-                "@value": "Digital Object Identifier (DOI) URL"
+                "@value": "Digital Object Identifier (DOI) for a resource."
             }
         ],
         "https://schema.org/name": [
@@ -1587,7 +1587,7 @@
         ],
         "https://notes.ross.ch/#/page/doi": [
             {
-                "@id": "https://doi.org/10.48550/arXiv.2404.14983"
+                "@value": "arXiv:2404.14983"
             }
         ],
         "https://notes.ross.ch/#/page/file": [
