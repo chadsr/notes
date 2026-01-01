@@ -9,13 +9,13 @@ jobs:
     name: Spellchecker
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v6
       - uses: crate-ci/typos@v1.39.0
   validate:
     name: Validate Graph
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Graph Validation
         uses: logseq/graph-validator@v0.5.0
