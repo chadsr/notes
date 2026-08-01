@@ -26,7 +26,7 @@ jobs:
           git status -s
           ls dist/
       - name: Setup Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           cache: "npm"
           node-version: "latest"
@@ -47,7 +47,7 @@ jobs:
       - uses: actions/checkout@v7
         with:
           ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v6
+      - uses: actions/setup-node@v7
         with:
           cache: "npm"
           node-version: "latest"
