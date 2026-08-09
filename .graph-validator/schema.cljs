@@ -40,7 +40,7 @@
     (is (empty? (remove :topic props))
         "All notes should have a :topic property")))
 
-(deftest journal-schema
-  (let [props (get-properties-for-type "Journal")]
+(deftest journal-entry-schema
+  (let [props (get-properties-for-type "JournalEntry")]
     (is (empty? (remove :datecreated props))
-        "All journals should have a :datecreated property")))
+        "All journal entries should have a :datecreated property")))

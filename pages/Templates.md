@@ -1,12 +1,12 @@
 exclude-from-graph-view:: true
 
-- type:: [[Journal]]
+- type:: [[JournalEntry]]
   author:: [[Ross Chadwick]]
   datecreated:: 01-01-1979
   published:: true
   topic::
   description:: Some short description of what is covered in the journal
-  template:: Journal
+  template:: JournalEntry
 - type:: [[Note]]
   author:: [[Ross Chadwick]]
   datecreated:: 01-01-1979
