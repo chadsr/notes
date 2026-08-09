@@ -357,6 +357,7 @@
 <https://notes.ross.ch/#/page/topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .
 <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/rangeIncludes> <https://notes.ross.ch/#/page/StringWithRefs> .
+<https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/sameas> <https://schema.org/about> .
 <https://notes.ross.ch/#/page/topic> <https://schema.org/name> "topic" .
 <https://notes.ross.ch/#/page/topic> <https://schema.org/url> <https://notes.ross.ch/#/page/topic> .
 <https://notes.ross.ch/#/page/type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Property> .

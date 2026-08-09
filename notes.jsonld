@@ -1848,6 +1848,11 @@
                 "@id": "https://notes.ross.ch/#/page/StringWithRefs"
             }
         ],
+        "https://notes.ross.ch/#/page/sameas": [
+            {
+                "@id": "https://schema.org/about"
+            }
+        ],
         "https://schema.org/name": [
             {
                 "@value": "topic"
