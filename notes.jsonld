@@ -32,6 +32,38 @@
         ]
     },
     {
+        "@id": "https://notes.ross.ch/#/page/BlogPosting",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A blog post."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "BlogPosting"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/BlogPosting"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/SocialMediaPosting"
+            }
+        ]
+    },
+    {
         "@id": "https://notes.ross.ch/#/page/Book",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
@@ -324,13 +356,13 @@
         ]
     },
     {
-        "@id": "https://notes.ross.ch/#/page/Journal",
+        "@id": "https://notes.ross.ch/#/page/JournalEntry",
         "@type": [
             "https://notes.ross.ch/#/page/Class"
         ],
         "https://notes.ross.ch/#/page/sameas": [
             {
-                "@id": "https://schema.org/Periodical"
+                "@id": "https://schema.org/BlogPosting"
             }
         ],
         "https://schema.org/description": [
@@ -340,12 +372,12 @@
         ],
         "https://schema.org/name": [
             {
-                "@value": "Journal"
+                "@value": "JournalEntry"
             }
         ],
         "https://schema.org/url": [
             {
-                "@id": "https://notes.ross.ch/#/page/Journal"
+                "@id": "https://notes.ross.ch/#/page/JournalEntry"
             }
         ],
         "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
@@ -384,7 +416,7 @@
     {
         "@id": "https://notes.ross.ch/#/page/May%206th%2C%202025",
         "@type": [
-            "https://notes.ross.ch/#/page/Journal"
+            "https://notes.ross.ch/#/page/JournalEntry"
         ],
         "https://notes.ross.ch/#/page/published": [
             {
@@ -752,6 +784,38 @@
         "https://schema.org/name": [
             {
                 "@value": "Sebastian Steinhorst"
+            }
+        ]
+    },
+    {
+        "@id": "https://notes.ross.ch/#/page/SocialMediaPosting",
+        "@type": [
+            "https://notes.ross.ch/#/page/Class"
+        ],
+        "https://notes.ross.ch/#/page/exclude-from-graph-view": [
+            {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        ],
+        "https://schema.org/description": [
+            {
+                "@value": "A post to a social media platform, including blog posts, tweets, Facebook posts, etc."
+            }
+        ],
+        "https://schema.org/name": [
+            {
+                "@value": "SocialMediaPosting"
+            }
+        ],
+        "https://schema.org/url": [
+            {
+                "@id": "https://schema.org/SocialMediaPosting"
+            }
+        ],
+        "https://www.w3.org/2000/01/rdf-schema#subClassOf": [
+            {
+                "@id": "https://notes.ross.ch/#/page/Article"
             }
         ]
     },

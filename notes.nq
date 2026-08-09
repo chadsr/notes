@@ -4,6 +4,12 @@
 <https://notes.ross.ch/#/page/Article> <https://schema.org/name> "Article" .
 <https://notes.ross.ch/#/page/Article> <https://schema.org/url> <https://schema.org/Article> .
 <https://notes.ross.ch/#/page/Article> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/CreativeWork> .
+<https://notes.ross.ch/#/page/BlogPosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/BlogPosting> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/BlogPosting> <https://schema.org/description> "A blog post." .
+<https://notes.ross.ch/#/page/BlogPosting> <https://schema.org/name> "BlogPosting" .
+<https://notes.ross.ch/#/page/BlogPosting> <https://schema.org/url> <https://schema.org/BlogPosting> .
+<https://notes.ross.ch/#/page/BlogPosting> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/SocialMediaPosting> .
 <https://notes.ross.ch/#/page/Book> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Book> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/Book> <https://schema.org/description> "An article, such as a news article or piece of investigative report. Newspapers and magazines have articles of many different types and this is intended to cover them all." .
@@ -59,18 +65,18 @@
 <https://notes.ross.ch/#/page/Jens%20Ernstberger> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Jens%20Ernstberger> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Jens%20Ernstberger> <https://schema.org/name> "Jens Ernstberger" .
-<https://notes.ross.ch/#/page/Journal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
-<https://notes.ross.ch/#/page/Journal> <https://notes.ross.ch/#/page/sameas> <https://schema.org/Periodical> .
-<https://notes.ross.ch/#/page/Journal> <https://schema.org/description> "A journal entry" .
-<https://notes.ross.ch/#/page/Journal> <https://schema.org/name> "Journal" .
-<https://notes.ross.ch/#/page/Journal> <https://schema.org/url> <https://notes.ross.ch/#/page/Journal> .
-<https://notes.ross.ch/#/page/Journal> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/JournalEntry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/JournalEntry> <https://notes.ross.ch/#/page/sameas> <https://schema.org/BlogPosting> .
+<https://notes.ross.ch/#/page/JournalEntry> <https://schema.org/description> "A journal entry" .
+<https://notes.ross.ch/#/page/JournalEntry> <https://schema.org/name> "JournalEntry" .
+<https://notes.ross.ch/#/page/JournalEntry> <https://schema.org/url> <https://notes.ross.ch/#/page/JournalEntry> .
+<https://notes.ross.ch/#/page/JournalEntry> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Least%20Authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Organization> .
 <https://notes.ross.ch/#/page/Least%20Authority> <https://schema.org/name> "Least Authority" .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Luca%20Ciprian> <https://schema.org/name> "Luca Ciprian" .
-<https://notes.ross.ch/#/page/May%206th%2C%202025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Journal> .
+<https://notes.ross.ch/#/page/May%206th%2C%202025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/JournalEntry> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/published> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Digital-Garden> .
 <https://notes.ross.ch/#/page/May%206th%2C%202025> <https://notes.ross.ch/#/page/topic> <https://notes.ross.ch/#/page/Linked-Data> .
@@ -143,6 +149,12 @@
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Person> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://notes.ross.ch/#/page/alumniof> <https://notes.ross.ch/#/page/Technical%20University%20of%20Munich> .
 <https://notes.ross.ch/#/page/Sebastian%20Steinhorst> <https://schema.org/name> "Sebastian Steinhorst" .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <https://notes.ross.ch/#/page/exclude-from-graph-view> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <https://schema.org/description> "A post to a social media platform, including blog posts, tweets, Facebook posts, etc." .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <https://schema.org/name> "SocialMediaPosting" .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <https://schema.org/url> <https://schema.org/SocialMediaPosting> .
+<https://notes.ross.ch/#/page/SocialMediaPosting> <https://www.w3.org/2000/01/rdf-schema#subClassOf> <https://notes.ross.ch/#/page/Article> .
 <https://notes.ross.ch/#/page/Software> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://notes.ross.ch/#/page/Class> .
 <https://notes.ross.ch/#/page/Software> <https://notes.ross.ch/#/page/sameas> <http://dbpedia.org/ontology/Software> .
 <https://notes.ross.ch/#/page/Software> <https://schema.org/name> "Software" .
