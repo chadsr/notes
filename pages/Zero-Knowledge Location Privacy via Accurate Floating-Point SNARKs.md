@@ -7,6 +7,8 @@ description:: Notes on the paper "Zero-Knowledge Location Privacy via Accurate F
 
 - ![Zero-Knowledge_Location_Privacy_2404.14983v2.pdf](../assets/Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0.pdf)
 - {{video https://youtu.be/qeHQgKUfoCQ}}
+- {{video https://youtu.be/dPCWQVGvp5Q}}
+- {{video https://youtu.be/XXSB_WSTuss}}
 - [PoC Repository](https://github.com/tumberger/zk-Location)
 - [[hls__Zero-Knowledge_Location_Privacy_2404.14983v2_1746716776817_0]]
 	- ((681cc872-8162-4694-83ce-c13b6689e084))
